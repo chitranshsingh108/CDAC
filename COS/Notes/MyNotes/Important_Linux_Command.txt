@@ -1,1 +1,90 @@
+File and Directory Management:
 
+ls: Lists the files and directories in the current directory.
+pwd: Prints the current working directory.
+cd: Changes the current directory.
+mkdir: Creates a new directory.
+mv: Moves or renames files and directories.
+cp: Copies files or directories.
+rm: Removes files or directories.
+touch: Creates an empty file or updates the timestamp of an existing file.
+cat: Concatenates and displays the contents of a file.
+echo: Prints text or variables to the terminal or writes them to a file.
+
+
+Viewing and Manipulating Files:
+
+less: Allows you to view the contents of a file one page at a time.
+man: Displays the manual (help) page for a command.
+uname: Prints system information, such as the operating system name.
+whoami: Prints the current user's username.
+tar: Archives files and directories into a single file or extracts them.
+grep: Searches text using patterns.
+head: Displays the first few lines of a file.
+tail: Displays the last few lines of a file.
+diff: Compares two files line by line.
+cmp: Compares two files byte by byte.
+comm: Compares two sorted files line by line.
+sort: Sorts lines of text files.
+cat: Concatenates and displays files.
+
+
+System Management and Configuration:
+
+export: Sets environment variables.
+zip: Compresses files into a ZIP archive.
+unzip: Extracts files from a ZIP archive.
+ssh: Connects to a remote machine securely via SSH.
+service: Manages services (start, stop, restart, etc.).
+ps: Displays information about currently running processes.
+kill: Sends a signal to terminate a process by PID.
+killall: Kills all processes with a given name.
+df: Displays disk space usage.
+mount: Mounts a file system.
+chmod: Changes file permissions.
+chown: Changes file owner and group.
+ifconfig: Configures network interfaces.
+traceroute: Traces the route packets take to reach a network host.
+wget: Downloads files from the web.
+ufw: Manages the Uncomplicated Firewall (UFW) in Ubuntu.
+iptables: Configures the Linux kernel firewall.
+
+
+Package Management:
+
+apt: Package manager for Debian-based distributions (e.g., Ubuntu).
+pacman: Package manager for Arch-based distributions.
+yum: Package manager for RPM-based distributions (e.g., CentOS).
+rpm: Package manager for installing, uninstalling, and managing packages in RPM-based distributions.
+
+
+User and Permission Management:
+
+sudo: Executes a command as the superuser or another user.
+useradd: Adds a new user.
+passwd: Changes a user's password.
+
+
+Utility Commands:
+
+cal: Displays a calendar.
+alias: Creates shortcuts for commands.
+dd: Converts and copies files, often used for disk imaging.
+whereis: Locates the binary, source, and manual page files for a command.
+whatis: Displays a brief description of a command.
+top: Displays a real-time view of running processes.
+clear: Clears the terminal screen.
+
+
+Networking:
+
+ifconfig: Configures network interfaces.
+traceroute: Tracks the path that a packet takes to reach a destination.
+wget: Fetches files from the web via HTTP, HTTPS, or FTP.
+ssh: Connects to a remote machine securely over the network.
+
+
+Security and Firewalls:
+
+ufw: User-friendly firewall interface, primarily used in Ubuntu.
+iptables: Configures the Linux kernel firewall to control network traffic.
