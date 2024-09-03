@@ -1,0 +1,102 @@
+Linux HackerRank
+
+OS Challenge-2
+
+1. Display the lines (from line number 12 to 22, both inclusive) of a given text file.
+
+sed -n '12,22p' file.txt
+
+sed --> stream editor (for parsing and transforming)
+-n --> This tells sed not to print anything by default. Without -n, sed would print every line it processes.
+p --> print
+
+parsing - identify specific lines or patterns in the text
+transforming - Apply modifications to the identified text
+
+
+2. Display the last 20 characters of an input file.
+
+tail -c 20 file.txt
+
+-c --> character
+
+
+3. Replace all sequences of multiple spaces with just one space.
+
+tr -s ' ' < file.txt
+
+tr --> translate or transform
+-s --> squeeze (compresses sequences of the same character that appear consecutively into a single instance of that character)
+< --> redirection
+
+
+4. Sort the lines in descending order.
+
+sort -nr file.txt
+
+-n --> tells sort to treat the lines as numerical values rather than strings
+-r --> reverses the order of the sort resulting in descending order
+
+
+5. Sort a TSV (tab-separated values) file based on the average temperature in January (which is the second column) in descending order
+
+sort -t$'\t' -k2,2nr file.txt
+
+-t$'\t' --> Specifies tab character as delimiter for columns. By default, sort uses whitespace (spaces or tabs) to separate fields. If file uses a different delimiter, such as a comma or a tab, it is required to specify it with -t
+
+-k2,2 --> Specifies that the sorting should be done based on the second column (January temperatures). -k2,2 indicates sorting should consider only the second column for sorting.
+-k --> sort key (column or columns)
+Syntax: -kSTART,END 
+
+-n --> Ensures that the sort is numeric
+-r --> Reverses the order to achieve descending sorting
+
+delimiter - a character or sequence of characters used to separate or divide data into fields or segments
+
+sort -k2 -n -r -t$'\t'
+
+6. Display only those lines which are not followed or preceded by identical replications.
+
+uniq -u
+
+
+
+OS Challenge-3
+
+1. Given a text file, order the lines in lexicographical order.
+
+sort
+
+2. Given a text file, order the lines in reverse lexicographical order.
+
+sort -r
+
+3. Given a text file, remove the consecutive repetitions of any line.
+
+uniq
+
+4. Given a text file, count the number of times each line repeats itself. Only consider consecutive repetitions. Display the space separated count and line, respectively. There shouldn't be any leading or trailing spaces.
+
+uniq -c | awk '{$1=$1; print $0}'
+
+awk --> remove any leading spaces that are added by uniq -c
+{$1=$1} --> reassigns the first field $1, which triggers awk to rebuild the entire record and strip off the leading spaces
+print $0 --> prints the entire line after processing.
+
+5. Given a CSV file where each row contains the name of a city and its state separated by a comma, your task is to replace the newlines in the file with tabs.
+
+tr '\n' '\t'
+
+6. Given a CSV file where each row contains the name of a city and its state separated by a comma, your task is to restructure the file in such a way, that three consecutive rows are folded into one, and separated by tab.
+
+paste -d'\t' - - - 
+
+paste --> merge lines of files horizontally
+-d'\t' --> delimiter between the merged lines should be a tab
+- - - --> tells paste to read from the input file three times simultaneously, treating each group of three lines as one
+
+
+
+
+
+
