@@ -1,2 +1,29 @@
 Coding:
 https://prepinsta.com/top-100-codes/
+
+----------Exception Handling----------
+1. https://www.geeksforgeeks.org/exceptions-in-java/
+2. https://www.geeksforgeeks.org/types-of-exception-in-java-with-examples/
+3. https://www.geeksforgeeks.org/checked-vs-unchecked-exceptions-in-java/
+4. https://www.geeksforgeeks.org/throw-throws-java/
+5. https://www.geeksforgeeks.org/difference-between-throw-and-throws-in-java/
+
+----------String Handling-----------
+1. https://www.geeksforgeeks.org/strings-in-java/
+2. https://www.geeksforgeeks.org/string-class-in-java/
+3. https://www.geeksforgeeks.org/stringbuffer-class-in-java/
+4. https://www.geeksforgeeks.org/stringbuilder-class-in-java-with-examples/
+5. https://www.geeksforgeeks.org/string-vs-stringbuilder-vs-stringbuffer-in-java/
+
+----------Generics----------
+1. https://www.geeksforgeeks.org/wrapper-classes-java/
+2. https://www.geeksforgeeks.org/generics-in-java/
+3. https://www.geeksforgeeks.org/generic-map-in-java/
+4. https://www.geeksforgeeks.org/generic-set-in-java/
+5. https://www.geeksforgeeks.org/restrictions-on-generics-in-java/
+6. https://www.geeksforgeeks.org/collections-in-java-2/
+7. https://www.geeksforgeeks.org/list-interface-java-examples/
+8. https://www.geeksforgeeks.org/java-collections-interview-questions/
+
+
+https://www.geeksforgeeks.org/why-to-use-comparator-interface-rather-than-comparable-interface-in-java/
