@@ -1,0 +1,12 @@
+Java Stdin and Stdout II:
+https://www.hackerrank.com/challenges/java-stdin-stdout/problem?isFullScreen=true
+When you call scan.nextInt() and scan.nextDouble(), the scanner reads the integer and double values. However, it doesn't consume the newline character (\n) generated when the user presses "Enter."
+As a result, when scan.nextLine() is called, it reads this leftover newline character instead of waiting for the actual string input.
+To fix this, you need to add an extra scan.nextLine() after reading the double to consume the leftover newline character. Here's the corrected code:
+
+Java Output Formatting: 
+https://www.hackerrank.com/challenges/java-output-formatting/problem?isFullScreen=true
+%-15s%03d%n
+%-15s: This formats a string (s) to be left-justified within 15 characters. If the string is shorter than 15 characters, it will be padded with spaces on the right.
+%03d: This formats an integer (d) to be exactly 3 digits long, with leading zeros if necessary. For example, 5 would be formatted as 005.
+%n: This inserts a platform-specific newline character.
