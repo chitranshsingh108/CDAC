@@ -4,6 +4,9 @@ https://prepinsta.com/top-100-codes/
 Interview:
 https://www.geeksforgeeks.org/java-interview-questions/
 
+JVM
+https://www.geeksforgeeks.org/jvm-works-jvm-architecture/
+
 ----------Exception Handling----------
 1. https://www.geeksforgeeks.org/exceptions-in-java/
 2. https://www.geeksforgeeks.org/types-of-exception-in-java-with-examples/
