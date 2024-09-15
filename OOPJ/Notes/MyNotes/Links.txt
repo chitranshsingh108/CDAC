@@ -7,6 +7,30 @@ https://www.geeksforgeeks.org/java-interview-questions/
 JVM
 https://www.geeksforgeeks.org/jvm-works-jvm-architecture/
 
+
+https://www.geeksforgeeks.org/constructors-in-java/
+
+
+https://www.geeksforgeeks.org/four-main-object-oriented-programming-concepts-of-java/
+https://www.geeksforgeeks.org/java-not-purely-object-oriented-language/
+https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/
+
+https://www.geeksforgeeks.org/encapsulation-in-java/
+https://www.geeksforgeeks.org/inheritance-in-java/
+
+https://www.geeksforgeeks.org/abstraction-in-java-2/
+https://www.geeksforgeeks.org/interfaces-in-java/
+https://www.geeksforgeeks.org/abstract-classes-in-java/
+https://www.geeksforgeeks.org/difference-between-abstract-class-and-interface-in-java/
+https://www.geeksforgeeks.org/abstract-keyword-in-java/
+
+https://www.geeksforgeeks.org/polymorphism-in-java/
+https://www.geeksforgeeks.org/overriding-in-java/
+
+
+https://www.geeksforgeeks.org/this-reference-in-java/
+
+
 ----------Exception Handling----------
 1. https://www.geeksforgeeks.org/exceptions-in-java/
 2. https://www.geeksforgeeks.org/types-of-exception-in-java-with-examples/
@@ -31,5 +55,10 @@ https://www.geeksforgeeks.org/jvm-works-jvm-architecture/
 7. https://www.geeksforgeeks.org/list-interface-java-examples/
 8. https://www.geeksforgeeks.org/java-collections-interview-questions/
 
+
+https://www.geeksforgeeks.org/nested-classes-java/
+https://www.geeksforgeeks.org/local-inner-class-java/
+https://www.geeksforgeeks.org/anonymous-inner-class-java/
+https://www.geeksforgeeks.org/lambda-expressions-java-8/
 
 https://www.geeksforgeeks.org/why-to-use-comparator-interface-rather-than-comparable-interface-in-java/
