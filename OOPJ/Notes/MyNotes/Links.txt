@@ -27,6 +27,7 @@ https://www.geeksforgeeks.org/abstract-keyword-in-java/
 https://www.geeksforgeeks.org/polymorphism-in-java/
 https://www.geeksforgeeks.org/overriding-in-java/
 
+https://www.geeksforgeeks.org/functional-interfaces-java/
 
 https://www.geeksforgeeks.org/this-reference-in-java/
 
